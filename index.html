@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Youtube</title>
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/fb4ecad494.js" crossorigin="anonymous"></script>
+    <!--bootsrap 4.6 css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+    <div class="home-bar-container">
+        <div class="row">
+
+            <div class="col-md-3 col-4">
+                <div class="menuButton-and-logo">
+                    <button  id="menu-bar-button"><i class="fa-solid fa-bars"></i></button>
+                    <img src="images/YouTube_logo.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-4">                     
+                            <div class="search-bar">
+                              <form>
+                                <input type="text" placeholder="Search">
+                                <button class="search-bar-button"><i class="fas fa-search"></i></button>
+                                <button class="search-bar-voice-button"><i class="fa-solid fa-microphone"></i></button>
+                              </form>
+                            </div>
+            </div>
+
+            <div class="col-md-3 col-4">
+                <div class="home-bar-right">
+                    <button class="video-button"><i class="fa-solid fa-video"></i><span class="tooltip-top">Create</span></button>
+                    <button class="notification-button"><i class="fa-regular fa-bell"></i><span class="tooltip-top">Notification</span></button>
+                    <img class="profile-button" src="images/profile.png" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </header>
+
+    <section>
+        <div class="sidebar-main-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="sidebar">
+                      <!--  <div class="logo-details">
+                         <i class='bx bxl-c-plus-plus icon'></i>
+                            <div class="logo_name">CodingLab</div> 
+                            <i class='bx bx-menu' id="btn" ></i>
+                        </div>--> 
+                        <ul class="nav-list">
+                          
+                          <li>
+                            <a href="#">
+                              <i class='bx bxs-home'></i>
+                              <span class="links_name">Home</span>
+                            </a>
+                             <span class="tooltip">Home</span>
+                          </li>
+                          <li>
+                           <a href="#">
+                            <i class="fa-regular fa-circle-play"></i>
+                             <span class="links_name">Shorts</span>
+                           </a>
+                           <span class="tooltip">Shorts</span>
+                         </li>
+                         <li>
+                           <a href="#">
+                            <i class="fa-brands fa-sellcast"></i>
+                             <span class="links_name">Subscriptions</span>
+                           </a>
+                           <span class="tooltip">Subscriptions</span>
+                         </li>
+                         <li>
+                           <a href="#">
+                            <i class='bx bxs-videos'></i>
+                             <span class="links_name">Library</span>
+                           </a>
+                           <span class="tooltip">Library</span>
+                         </li>
+                         <li>
+                           <a href="#">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                             <span class="links_name">History</span>
+                           </a>
+                           <span class="tooltip">History</span>
+                         </li>
+                         <li>
+                           <a href="#">
+                            <i class='bx bxs-dashboard'></i>
+                             <span class="links_name">Your Videos</span>
+                           </a>
+                           <span class="tooltip">Your Videos</span>
+                         </li>
+                         <li>
+                           <a href="#">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                             <span class="links_name">Liked Videos</span>
+                           </a>
+                           <span class="tooltip">Liked</span>
+                         </li>
+                         <li>
+                           <a href="#">
+                             <i class='bx bx-cog' ></i>
+                             <span class="links_name">Setting</span>
+                           </a>
+                           <span class="tooltip">Setting</span>
+                         </li>
+                        <!-- <li class="profile">
+                             <div class="profile-details">
+                               <img src="profile.jpg" alt="profileImg">
+                               <div class="name_job">
+                                 <div class="name">Prem Shahi</div>
+                                 <div class="job">Web designer</div>
+                               </div>
+                             </div>
+                             <i class='bx bx-log-out' id="log_out" ></i>
+                         </li>-->
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="home-section">
+      <div class="home-section-container">
+        <div class="row">
+          <div class="col-md-12">
+
+
+
+            <div class="chips-wrapper">
+              <div class="chip">
+                  <p>All</p>
+              </div>
+              <div class="chip">
+                  <p>Live</p>
+              </div>
+              <div class="chip">
+                  <p>Computer Programming</p>
+              </div>
+              <div class="chip">
+                  <p>Mixes</p>
+              </div>
+              <div class="chip">
+                  <p>Editing</p>
+              </div>
+              <div class="chip">
+                  <p>Coding</p>
+              </div>
+              <div class="chip">
+                  <p>Motivation</p>
+              </div>
+              <div class="chip">
+                  <p>Weight Training</p>
+              </div>
+              <div class="chip">
+                  <p>Filimi</p>
+              </div>
+              <div class="chip">
+                  <p>Teams</p>
+              </div>              
+              <div class="chip">
+                  <p>Comedy</p>
+              </div>
+              <div class="chip">
+                <p>Recently Uploaded</p>
+            </div>
+            <div class="chip">
+              <p>Watched</p>
+          </div>
+          <div class="chip">
+            <p>New To You</p>
+        </div>
+          </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section>
+      <div class="main-body-container">
+        <div class="row">
+
+          <div class="col-md-12">
+          
+
+
+            <div id="ads-box">
+
+              <img class="ads-box-logo" src="https://www.gstatic.com/youtube/img/promos/growth/48be9f995834a86cdb29d333dbf768e2e2dc968ce90ebebaeda9cc2a31719d0a_640x48.png" alt="">
+              <p>Introducing 1 month & 3 <br>months Prepaid Plans</p>
+              <button class="ads-box-button">Get it now</button>
+              <button id="ads-box-close" onclick="showOrHideDiv()"><i class="fa-solid fa-xmark"></i></button>
+
+              
+            </div>
+
+
+        <div id="main-contents-div">
+
+              <div class="video-container">
+
+
+                <div class="video-content-cover">
+                  <div class="video-content">
+                    <video src="video/Brototype_meetup_and_Brocode_challenge_2.0.(720p).mp4" poster="images/thumbnail.jpg" class="video-box" data-play="Hover" ></video>
+                   
+
+                      <div class="video-details">
+                          <div class="channel-logo">
+                              <img src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s68-c-k-c0x00ffffff-no-rj" alt="">
+                          </div>
+                          <div class="detail">
+                              <h3 class="title">Learn Coding in Malayalam for Free | Starts on Aug 25th</h3>
+                              <div class="channel-name">Brototype</div>
+                              <div class="views-upload">
+                                  <div class="views">281K views .</div>
+                                  <div class="upload">1 year ago</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="hidden-content">
+                          <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                          <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="video-content-cover">
+                <div class="video-content">
+                  <video src="https://youtu.be/W6-wPWI1EGY" poster="https://i.ytimg.com/vi/W6-wPWI1EGY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg2gQejfpJOgFrvZSAxUx9RoHo0A" class="video-box" data-play="Hover" ></video>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Plus Two (+2) Students Must Watch</h3>
+                            <div class="channel-name">Brototype</div>
+                            <div class="views-upload">
+                                <div class="views">281K views .</div>
+                                <div class="upload">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                        <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-content-cover">
+              <div class="video-content">
+                <video src="https://youtu.be/WdHpbxFmDuE" poster="https://i.ytimg.com/vi/HKYaT7v5FYs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjYyDXenVvS0gnftVGJRauCLexBg" class="video-box" data-play="Hover" ></video>
+                  <div class="video-details">
+                      <div class="channel-logo">
+                          <img src="https://yt3.ggpht.com/EdiS0caXDzK3689AVDE9e0yGzNTUI571wryCaGR6LcJqgweJIyKqCfRcv-YZvQDvPJJD4Kte=s88-c-k-c0x00ffffff-no-rj" alt="">
+                      </div>
+                      <div class="detail">
+                          <h3 class="title">Plus Two Maths - Relations And Functions | XYLEM +1 +2</h3>
+                          <div class="channel-name">Xylem</div>
+                          <div class="views-upload">
+                              <div class="views">281K views .</div>
+                              <div class="upload">1 year ago</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="hidden-content">
+                      <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                      <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="video-content-cover">
+            <div class="video-content">
+              <video src="https://youtu.be/OfLibM3vJdA" poster="https://i.ytimg.com/vi/-vYcW8NL6UY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlUTi_gEdjmo-8XdeV8sjLVlEpTA" class="video-box" data-play="Hover" ></video>
+                <div class="video-details">
+                    <div class="channel-logo">
+                        <img src="https://yt3.googleusercontent.com/ytc/AMLnZu9yFMIzNRuJnJg9NQink7ImKnXBnqAs1jG3pnwCzg=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Virus അയച്ചു തന്നു | Tried to hack me 😁</h3>
+                        <div class="channel-name">Farhan Bin Fazil</div>
+                        <div class="views-upload">
+                            <div class="views">281K views .</div>
+                            <div class="upload">1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-content">
+                    <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                    <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-content-cover">
+          <div class="video-content">
+            <video src="https://youtu.be/y7iDsRs4ueY" poster="https://i.ytimg.com/vi/HMQKFrUQQf0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBoUBPm4_kFNPsZ0jQgWOCV9LT5_w" class="video-box" data-play="Hover" ></video>
+              <div class="video-details">
+                  <div class="channel-logo">
+                      <img src="https://yt3.ggpht.com/yjLFBB2vrI5s-U3leoQYkUzkjT7HmraRd56wQlQw0hQ-ul8DsO4nd4igOx_DMn0_nF5dCDJn7ME=s88-c-k-c0x00ffffff-no-rj" alt="">
+                  </div>
+                  <div class="detail">
+                      <h3 class="title">കുട്ടി പ്രിൻറർ പക്ഷെ A4 Printing 😱 | Gadgets</h3>
+                      <div class="channel-name">Ricky Rodger</div>
+                      <div class="views-upload">
+                          <div class="views">281K views .</div>
+                          <div class="upload">1 year ago</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="hidden-content">
+                  <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                  <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-content-cover">
+        <div class="video-content">
+          <video src="https://www.youtube.com/watch?v=NzqWPF6WNGc" poster="https://i.ytimg.com/vi/NzqWPF6WNGc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUQqW2WQcbbLV4N1l83Aa8gwhZNQ" class="video-box" data-play="Hover" ></video>
+            <div class="video-details">
+                <div class="channel-logo">
+                    <img src="https://yt3.ggpht.com/ytc/AMLnZu8VSmKyjQa_VtK0TSo5aRgKXtAxmYzMb79-RZpRdQ=s88-c-k-c0x00ffffff-no-rj" alt="">
+                </div>
+                <div class="detail">
+                    <h3 class="title">ഇങ്ങള് SERIAL ROAST ചോയ്‌ച്ചാ ?</h3>
+                    <div class="channel-name">Arjyou</div>
+                    <div class="views-upload">
+                        <div class="views">281K views .</div>
+                        <div class="upload">1 year ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-content">
+                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-content-cover">
+      <div class="video-content">
+        <video src="https://youtu.be/NMz0i4q7KYY" poster="https://i.ytimg.com/vi/pZNjYTLbDxE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgiemv74t41ssq0uQoSLmicP-L2Q" class="video-box" data-play="Hover" ></video>
+          <div class="video-details">
+              <div class="channel-logo">
+                  <img src="https://yt3.ggpht.com/fSJW9y7epIA9BDfQhtdzmY7TFkZeO673oo-cLXvEc6GqEfb7mUMjYN3jFhyHKDc-JMgEPOzc=s88-c-k-c0x00ffffff-no-rj" alt="alternatetext">
+              </div>
+              <div class="detail">
+                  <h3 class="title">Wakanda Forever | My Opinion | Marvel | Malayalam</h3>
+                  <div class="channel-name">Call me Shazzam</div>
+                  <div class="views-upload">
+                      <div class="views">281K views .</div>
+                      <div class="upload">1 year ago</div>
+                  </div>
+              </div>
+          </div>
+          <div class="hidden-content">
+              <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+              <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+          </div>
+      </div>
+  </div>
+
+  <div class="video-content-cover">
+    <div class="video-content">
+      <video src="https://youtu.be/Wml7psvJBxI" poster="https://i.ytimg.com/vi/wwKb-wZCEjs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTpX6Va99eom1BF_cmetaCO3Dghg" class="video-box" data-play="Hover" ></video>
+        <div class="video-details">
+            <div class="channel-logo">
+                <img src="https://yt3.ggpht.com/ytc/AMLnZu_RBSrbwmYKwWLz15I0q8pZq1DOtBV8ULgPg-bm=s88-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="detail">
+                <h3 class="title">Build Big ARMS in 8 Minutes (AT HOME, NO EQUIPMENT)</h3>
+                <div class="channel-name">Next Workout</div>
+                <div class="views-upload">
+                    <div class="views">281K views .</div>
+                    <div class="upload">1 year ago</div>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-content">
+            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+        </div>
+    </div>
+</div>
+
+<div class="video-content-cover">
+  <div class="video-content">
+    <video src="https://youtu.be/rxN8Iuo28oQ" poster="https://i.ytimg.com/vi/sEAyggVL9tw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiUAJezyngWjJWDxsjYX_oO4rCGQ" class="video-box" data-play="Hover" ></video>
+      <div class="video-details">
+          <div class="channel-logo">
+              <img src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s68-c-k-c0x00ffffff-no-rj" alt="">
+          </div>
+          <div class="detail">
+              <h3 class="title">Not a Complete responsive website design</h3>
+              <div class="channel-name">Brototype</div>
+              <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden-content">
+          <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+          <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+      </div>
+  </div>
+</div>
+
+<div class="video-content-cover">
+  <div class="video-content">
+    <video src="https://youtu.be/O61u-4fALwk" poster="https://i.ytimg.com/vi/O61u-4fALwk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOEuUY0Vfl0cHZubROXFdhpqjtWQ" class="video-box" data-play="Hover" ></video>
+      <div class="video-details">
+          <div class="channel-logo">
+              <img src="https://yt3.ggpht.com/ytc/AMLnZu-09N-rsBSeaN1rYIpEdkzYAKvwuTR3MN_CoSCwOQ=s88-c-k-c0x00ffffff-no-rj" alt="">
+          </div>
+          <div class="detail">
+              <h3 class="title">Not a Complete responsive website design</h3>
+              <div class="channel-name">Village Food Channel</div>
+              <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden-content">
+          <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+          <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+      </div>
+  </div>
+</div>
+
+<div class="video-content-cover">
+  <div class="video-content">
+    <video src="https://youtu.be/IHwqhSLE9Gc" poster="https://i.ytimg.com/vi/IHwqhSLE9Gc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCI3036G--9x9ES9FD78acfgqe6JA" class="video-box" data-play="Hover" ></video>
+      <div class="video-details">
+          <div class="channel-logo">
+              <img src="https://yt3.ggpht.com/ytc/AMLnZu_7DbPrnk2PMjsg-5yLEhYpGpPmIH08fl2KxtXtQg=s68-c-k-c0x00ffffff-no-rj" alt="">
+          </div>
+          <div class="detail">
+              <h3 class="title">Not a Complete responsive website design</h3>
+              <div class="channel-name">Mitch Manly</div>
+              <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden-content">
+          <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+          <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+      </div>
+  </div>
+</div>
+
+<div class="video-content-cover">
+  <div class="video-content">
+    <video src="https://youtu.be/C4CkQwojnTY" poster="https://i.ytimg.com/vi/C4CkQwojnTY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBw5-COFzOXvWV2elN4y__jsxEWeg" class="video-box" data-play="Hover" ></video>
+      <div class="video-details">
+          <div class="channel-logo">
+              <img src="https://yt3.ggpht.com/EdiS0caXDzK3689AVDE9e0yGzNTUI571wryCaGR6LcJqgweJIyKqCfRcv-YZvQDvPJJD4Kte=s88-c-k-c0x00ffffff-no-rj" alt="">
+          </div>
+          <div class="detail">
+              <h3 class="title">Not a Complete responsive website design</h3>
+              <div class="channel-name">Xylem</div>
+              <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden-content">
+          <div class="btn"><i class="fa-regular fa-clock"></i>Watch later</div>
+          <div class="btn"><i class="fa-solid fa-folder-minus"></i>Add to queue</div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+            </div>
+
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+
+
+
+<!--=======================external script==========================-->
+<script src="script.js"></script>
+    <!--===========jquery bootstrap popper==========-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
